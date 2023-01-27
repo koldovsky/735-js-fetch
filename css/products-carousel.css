@@ -1,0 +1,17 @@
+.main-products__carousel {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.carousel__slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.carousel__slide-container--second {
+    transform: scale(1.2);
+    background-color: aquamarine;
+    border-radius: 50%;
+}
