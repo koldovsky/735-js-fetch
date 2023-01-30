@@ -1,0 +1,9 @@
+{"email":"john@wall.com","message":"Hello"}
+{"email":"","message":"hi nodejs"}
+{"email":"simonlip4@gmail.com","message":"Sup"}
+{"email":"2@gmail.com","message":"Богдан"}
+{"email":"am.kurhanevych@gmail.com","message":"Hi)"}
+{"email":"nataliya200@gmail.com","message":""}
+{"email":"","message":""}
+{"email":"","message":""}
+{"email":"sdfdghfg@fjfbdnkdj.com","message":"Thank you!"}

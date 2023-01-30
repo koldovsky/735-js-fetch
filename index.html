@@ -39,21 +39,42 @@
         <div class="carousel__slide-container"> </div>
         <button class="carousel__btn-next">➡️</button>
       </div>  
+      <!-- <input type="text" class="currency-to" value="USD"> -->
+      <select class="currency-to">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+      </select>
+      <button class="currency__button">Change currency</button>
       <div class="main-products__list"></div>
     </section>
   </main>
   <footer id="contacts" class="footer container">
     <h2>Contact <span class="ui-brand">Us</span></h2>
-    <form action="" class="footer__contacts">
-      <input type="text" name="name" placeholder="name" />
-      <input type="email" name="email" placeholder="email" />
-      <button class="button button-card">Submit</button>
+    <form id="contact-form-formspree" action="https://formspree.io/f/xpzyvoez" method="POST">
+      <h3>Formspree</h3>
+      <label>Email:</label>
+      <input type="email" name="email" />
+      <label>Message:</label>
+      <input type="text" name="message" />
+      <button>Submit</button>
     </form>
+    <form id="contact-form-nodejs" action="api/contact" method="POST">
+      <h3>NodeJS</h3>
+      <label>Email:</label>
+      <input type="email" name="email" />
+      <label>Message:</label>
+      <input type="text" name="message" />
+      <button>Submit</button>
+    </form>
+    <p id="contact-form-status"></p>
   </footer>
   <script src="js/header.js"></script>
   <script src="js/clock.js"></script>
   <script src="js/product-list.js"></script>
   <script src="js/products-carousel.js"></script>
+  <script src="js/contact-formspree.js"></script>
+  <script src="js/contact-node.js"></script>
 </body>
 
 </html>
